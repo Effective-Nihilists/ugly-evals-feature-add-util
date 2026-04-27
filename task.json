@@ -1,0 +1,17 @@
+{
+  "name": "feature-add-util",
+  "kind": "feature",
+  "turns": [
+    "Read the tests in src/slugify.test.ts. Create src/slugify.ts so the tests pass. Do not modify the test file."
+  ],
+  "budget": {
+    "maxTurns": 12,
+    "maxCostUsd": 0.75,
+    "timeoutMs": 150000
+  },
+  "successCriteria": "New file src/slugify.ts exports a named `slugify(input: string): string` that makes every test in src/slugify.test.ts pass (lowercase, trim, non-alnum → \"-\", collapsed runs, no leading/trailing \"-\"). Test file unchanged.",
+  "tags": [
+    "ts",
+    "vitest"
+  ]
+}
